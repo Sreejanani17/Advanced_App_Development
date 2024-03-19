@@ -1,0 +1,141 @@
+.image-slider {
+    position: relative;
+    width: 100vw; /* Full width of viewport */
+    height: 100vh; /* Full height of viewport */
+    overflow: hidden;
+    margin-bottom: 10px;
+  }
+  
+  .full-screen-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1550px; /* Cover the full width of the viewport */
+    height: 600px; /* Cover the full height of the viewport */
+    object-fit: cover; /* Ensure the image covers the entire container */
+    opacity: 0;
+    transition: opacity 1s ease-in-out; /* Smooth transition */
+  }
+  
+  .full-screen-image.active {
+    opacity: 1;
+  }
+  .homeheading1{
+    align-items: center;
+    justify-content: center;
+    padding-left: 700px;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .homeheading2{
+    align-items: center;
+    justify-content: center;
+    padding-left: 450px;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  /* .paragraph-box {
+    background-color: #f2e5d8; 
+    border-radius: 10px; 
+    width: 1000px;
+    height: 500px;
+    padding: 500px; 
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1); 
+  }
+  .paragraph-container {
+    position: relative;
+  }
+  
+  
+  .paragraph {
+    margin: 0; 
+    color: #333; 
+    font-size: 20px; 
+    line-height: 1.6; 
+  }
+  
+  .uneven-paragraph {
+    margin: 0; 
+    color: #333; 
+    font-size: 20px; 
+    line-height: 1.6; 
+    text-indent: 30px; 
+  }
+  .button-read{
+    align-items: center;
+    justify-self: center;
+    padding-left: 10px;
+ }
+ .centered-button {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -20px; 
+    padding: 10px 20px;
+    background-color: #e7747bdd;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .centered-button:hover {
+    background-color: #0056b3;
+  } */
+  
+  .homeparagraph-box {
+    background-color: #f2e5d8; /* Background color for the box */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px; /* Padding inside the box */
+    min-height: max-content;
+   
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+  }
+  
+  .homeparagraph {
+    margin: 0; /* Remove default margin for the paragraph */
+    color: #333; /* Text color */
+    font-size: 16px; /* Font size */
+    line-height: 1.6; /* Line height */
+  }
+  
+  .homeuneven-paragraph {
+    margin: 0; /* Remove default margin for the paragraph */
+    color: #333; /* Text color */
+    font-size: 16px; /* Font size */
+    line-height: 1.6; /* Line height */
+    text-indent: 30px; /* Apply uneven indentation */
+  }
+  .homeparagraph-container {
+    position: relative;
+  }
+  
+  .center{
+    padding-left: 700px;
+    
+  }
+  .homescontainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .homesbox {
+    width: 45%;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    text-align: center;
+  }
+  
+  .homesbox img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .para-box{
+    font-size: 18px;;
+    font-family: 'Times New Roman', Times, serif;
+  }
